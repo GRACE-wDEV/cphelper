@@ -1,0 +1,12 @@
+export { default as Dashboard } from './Dashboard';
+export { default as SolvePage } from './SolvePage';
+export { default as ProblemsPage } from './ProblemsPage';
+export { default as ContestsPage } from './ContestsPage';
+export { default as TemplatesPage } from './TemplatesPage';
+export { default as SnippetsPage } from './SnippetsPage';
+export { default as SettingsPage } from './SettingsPage';
+export { default as TimerPage } from './TimerPage';
+export { default as ProfilePage } from './ProfilePage';
+export { default as RecommendPage } from './RecommendPage';
+export { default as RivalsPage } from './RivalsPage';
+export { default as VirtualContestPage } from './VirtualContestPage';

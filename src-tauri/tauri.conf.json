@@ -1,0 +1,29 @@
+{
+  "productName": "CPHelper",
+  "version": "1.0.0",
+  "identifier": "com.cphelper.app",
+  "build": {
+    "frontendDist": "../dist",
+    "devUrl": "http://localhost:1420",
+    "beforeDevCommand": "npm run dev",
+    "beforeBuildCommand": "npm run build"
+  },
+  "app": {
+    "title": "CPHelper — Competitive Programming Assistant",
+    "windows": [
+      {
+        "title": "CPHelper",
+        "width": 1400,
+        "height": 900,
+        "minWidth": 900,
+        "minHeight": 600,
+        "resizable": true,
+        "decorations": true,
+        "transparent": false
+      }
+    ],
+    "security": {
+      "csp": "default-src 'self'; connect-src 'self' https://emkc.org https://codeforces.com https://api.allorigins.win https://fonts.googleapis.com https://fonts.gstatic.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com;"
+    }
+  }
+}
